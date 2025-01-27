@@ -20,7 +20,7 @@ public class GeminiChatModel implements BaseChatModel {
             "/v1beta" +
             "/models" +
             "/gemini-1.5-flash:generateContent";    // ?key= 이하는 나중에 결합
-    private final String API_KEY = "AIzaSyBLI0bfwny7l-Hx56hI93CxYpHQZXxxnyQ";
+    private final String API_KEY = "";
     private HttpClient httpClient;  // 바뀌지 않을 것임
 
     // 싱글톤
