@@ -2,7 +2,7 @@ POST https://generativelanguage.googleapis.com
     /v1beta
     /models
     /gemini-1.5-flash:generateContent
-    ?key=
+    ?key=AIzaSyBLI0bfwny7l-Hx56hI93CxYpHQZXxxnyQ
 Content-Type: application/json
 
 {
@@ -10,7 +10,7 @@ Content-Type: application/json
     {
       "parts": [
         {
-          "text": ""
+          "text": "오늘 점심 메뉴 추천해줘. 30자 이내로 대답해줘"
         }
       ]
     }

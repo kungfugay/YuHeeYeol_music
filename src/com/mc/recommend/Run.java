@@ -34,7 +34,7 @@ public class Run {
     public static void main(String[] args) throws IOException, InterruptedException {
 
         // part 1
-        String uri = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=";
+        String uri = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyBLI0bfwny7l-Hx56hI93CxYpHQZXxxnyQ";
 
 */
 /*        String body = "{\n" +

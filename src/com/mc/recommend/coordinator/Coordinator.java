@@ -11,7 +11,7 @@ import com.mc.recommend.qr.QRCodeGenerator;
 
 public class Coordinator {
     public SongMessage coordinate(String msg) {
-        // String msg = "우울해";
+        // String msg = "우울함을 없애주는 노래 한 곡 추천해줘.";
         msg += ", 노래 1곡만 추천해줘. 추천 이유도 알려줘.";
 
         // 추상화
