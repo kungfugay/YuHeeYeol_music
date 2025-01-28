@@ -14,7 +14,7 @@ public class TextRequest implements BaseRequest {
 
     public <T> TextRequest(String text, ResponseFormat<T> format) {
         this.text = text;
-        this.text += "메타데이터는 찍지마. " + format.formatToJson() + " 형식으로 응답해줘. ";
+        this.text += "메타데이터는 찍지마. " + format.formatToJson() + " 형식으로 응답해줘. 색상은 #4287f5 이런 식으로 알려줘.";
     }
 
     @Override

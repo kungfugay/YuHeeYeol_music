@@ -5,6 +5,7 @@ public class SongMessage {
     private String singer;
     private String title;
     private String reason;
+    private String color;
 
     public String getSinger() {
         return singer;
@@ -18,12 +19,15 @@ public class SongMessage {
         return reason;
     }
 
+    public String getColor() { return color; }
+
     @Override
     public String toString() {
         return "SongMessage{" +
                 "singer='" + singer + '\'' +
                 ", title='" + title + '\'' +
                 ", reason='" + reason + '\'' +
+                ", color='" + color + '\'' +
                 '}';
     }
 }
